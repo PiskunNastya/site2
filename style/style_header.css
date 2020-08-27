@@ -1,0 +1,110 @@
+.header {
+    background: url("../images/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.header__allInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.header__aboutCompany_imgLogo {
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.header__aboutCompany_h2 {
+    margin-bottom: 9px;
+    margin-top: 21px;
+}
+
+.header__aboutCompany_text {
+    margin-bottom: 15px;
+}
+
+.header__aboutCompany {
+    color: white;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.header__aboutCompany_h2 {
+    font-family: sans-serif;
+    font-size: 44px;
+}
+
+.header__aboutCompany_text {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.header_img {
+    text-align: center;
+}
+
+.header_img_mob {
+    width: 320px;  
+}
+
+@media(max-width: 480px) {
+    .header_img_mob {
+        width: 250px;        
+    }
+}
+
+
+.header__aboutCompany_btn {
+    width: 180px;
+    background-color: #dc554f;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    
+}
+
+.header__aboutCompany_btn:hover {
+    background: rgb(126, 20, 20);
+    transition: 500ms background linear;
+    border-radius: 8px;
+}
+
+.header__aboutCompany_btn_a {
+    cursor: pointer;
+}
+
+.header__aboutCompany_btn_img {
+    width: 180px;
+}
+
+
+
+
+
+
+/* _______________________________круги справа по центру экрана */
+
+.circles {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 45vh;
+    right: 16px;
+}
+
+.circle {
+    background: #e2e2e2;
+    width: 10px;
+    height: 10px;
+    margin: 8px 0;
+    border-radius: 7px;
+}
+
+/* _______________________________круги справа по центру экрана */

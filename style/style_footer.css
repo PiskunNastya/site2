@@ -1,0 +1,115 @@
+.footer {
+    padding: 60px 0;
+     font-family: sans-serif;
+     color: #696f6f;
+     font-size: 15px;
+}
+
+.footer-block_tweet {
+    padding-bottom: 40px;
+}
+
+.footer-block_social {
+    padding-bottom: 40px;
+}
+
+.footer-block_abuutUs {
+    line-height: 0.4;
+    padding-bottom: 40px;
+}
+
+
+
+@media(max-width: 767px) {
+    .footer-block_tweet {
+        text-align: center;
+    }
+
+    .footer-block_abuutUs {
+        text-align: center;
+    }
+}
+
+.footer-block_tweet i {
+    font-size: 16px;
+    color: #fd487d;
+}
+
+.footer-block_tweet_link {
+    font-size: 17px;
+    color: #00b6ad;
+    padding-left: 10px;
+}
+
+
+
+.footer-block_social_link {
+    font-size: 15px;
+    color: #00b6ad;
+}
+
+
+
+
+
+
+
+
+
+.footer-block_social_icons {
+    display: flex;
+    justify-content: center; 
+}
+
+
+
+.footer-block_social_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
+
+.facebook_link {
+    font-size: 24px;
+}
+
+
+.twitter {
+    background: #53c3ee;
+}
+
+.facebook {
+    background: #5975b1;
+}
+
+.pinterest {
+    background: #d54e55;
+}
+
+
+
+.footer-block_social_icons_link {
+    color: #ffffff;
+}
+
+.footer-block_social_center {
+    text-align: center;
+}
+
+.footer-block_social_icon_right {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+.footer-block_abuutUs_text {
+    font-weight: bold;
+}

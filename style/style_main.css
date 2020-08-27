@@ -1,0 +1,272 @@
+.icons-blocks {
+    background: white;
+    padding: 100px 0;
+}
+
+.icons-blocks__elem {
+    text-align: center;
+    padding: 0 39px;
+    padding-bottom: 20px;
+    padding: 0 15px 20px;
+}
+
+.icons-blocks__elem_icon {
+    width: 80px;
+}
+
+.icons-blocks__h3 {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.icons-blocks__text {
+    font-size: 17px;
+    line-height: 1.42857;
+    color: #696f6f;
+}
+
+.icons-blocks__elem_icon {
+    margin: 20px auto 30px;
+}
+
+.icons-allBlocks {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info-blocks {
+    background: #f3f4f5;
+    padding: 100px 0;
+    text-align: -webkit-center;          /* браузеры Chrome, Safari, Opera*/
+}
+
+.info-blocks__imaga_mobaile {
+    width: 320px;
+}
+
+
+@media(max-width: 480px) {
+    .info-blocks__imaga_mobaile {
+        width: 250px;
+        /* margin: 0 27.078px; */
+        
+    }
+}
+
+.info-blocks__article_allText {
+    padding-top: 100px;
+    text-align: left;                      
+}
+
+
+
+@media(max-width: 767px) {
+    .info-blocks__article_allText {
+        text-align: center;
+    }
+
+    .info-blocks__btn{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 767px) {
+    .info-blocks__article_allText {
+        padding-top: 30px;
+    }
+}
+
+.info-blocks__article_text {
+    font-size: 17px;
+    color: #696f6f;
+}
+
+
+
+.info-blocks__article_h3 {
+    font-family: sans-serif;
+}
+
+.info-blocks__article_btn {
+    font-family: sans-serif;
+    width: 139px;
+    height: 45px;
+    background-color: #dc554f;
+    padding: 10px 23px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.info-blocks__article_btn:hover {
+    background: rgb(126, 20, 20);
+    transition: 500ms background linear;
+    border-radius: 4px;
+}
+
+
+
+.info-blocks__imaga_mobaile__top40 {
+    margin-top: -40px;
+}
+
+.info-blocks__imaga_mobaile__top80 {
+    margin-top: -80px;
+}
+
+@media(max-width: 767px) {
+    .info-blocks__imaga_mobaile__top40 {
+        margin-top: 40px;
+    }
+
+    .info-blocks__imaga_mobaile__top80 {
+        margin-top: 80px;
+    }
+    
+}
+
+.info-blocks__article_btn-in {
+    font-family: sans-serif;
+    width: 107px;
+    height: 45px;
+    background-color: #dc554f;
+    padding: 10px 23px;
+    border: 2px solid #dc554f;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+
+.info-blocks__article_btn-in:hover {
+    background: rgb(126, 20, 20);
+    border: 2px solid rgb(126, 20, 20);
+    transition: 500ms background linear;
+}
+
+.info-blocks__article_btn-up {
+    font-family: sans-serif;
+    width: 115px;
+    height: 45px;
+    background-color: white;
+    padding: 10px 23px;
+    border: 2px solid #dc554f;
+    color: #dc554f;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.info-blocks__article_btn-up:hover {
+    border-radius: 4px;
+    background-color: #dc554f;
+    color: white;
+    transition: 500ms background linear;
+}
+
+.info-blocks__btn {
+    width: 180px;
+    background: #dc554f;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    
+}
+
+.info-blocks__btn:hover {
+    background: rgb(126, 20, 20);
+    transition: 500ms background linear;
+    border-radius: 8px;
+}
+
+.info-blocks__btn_img {
+    width: 180px;
+}
+
+
+
+
+
+
+
+
+.email {
+    background: url('../images/bg-2.png');
+    background-repeat: no-repeat;
+    padding: 100px;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+.email-block {
+    font-family: sans-serif;
+    color: white;
+}
+
+.email-block__top-text {
+    font-size: 36px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+@media(max-width: 320px) {
+    .email-block__top-text {
+        font-size: 28px;
+    }
+}
+
+.email-block__bottom-text {
+    font-size: 17px;
+}
+
+.email-allBlock {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.email-block__form_email {
+    height: 45px;
+    padding: 6px 12px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+@media(max-width: 767px) {
+    .email-block__form_email {
+        margin: 13px;
+    }
+}
+
+.email-block__form_btn {
+    width: 126.05px;
+    height: 45px;
+    background: #00b6ad;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+}
+
+.email-block__form {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
