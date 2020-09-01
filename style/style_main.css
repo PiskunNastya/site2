@@ -118,6 +118,8 @@
     background: rgb(126, 20, 20);
     transition: 500ms background linear;
     border-radius: 4px;
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -154,10 +156,15 @@
 }
 
 .info-blocks__article_btn-in:hover {
+    text-decoration: none;
+    color: white;
     background: rgb(126, 20, 20);
     border: 2px solid rgb(126, 20, 20);
     transition: 500ms background linear;
+    cursor: pointer;
+    text-decoration: none;
 }
+
 
 .info-blocks__article_btn-up {
     font-family: sans-serif;
@@ -176,6 +183,8 @@
     background-color: #dc554f;
     color: white;
     transition: 500ms background linear;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .info-blocks__btn {
